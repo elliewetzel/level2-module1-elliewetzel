@@ -50,8 +50,9 @@ public class GuestBook implements MouseListener {
 			names.add(t);
 		} else if (e.getSource().equals(view)) {
 			String allNames = " ";
+			int y = 1;
 			for (int i = 0; i < names.size(); i++) {
-				allNames = allNames + names.get(i) + "\n";
+				allNames = allNames + "Guest #" + y++ + ": " + names.get(i) + "\n";
 				// i + allNames + "\n" + names.get(i);
 			}
 			JOptionPane.showMessageDialog(null, allNames);
