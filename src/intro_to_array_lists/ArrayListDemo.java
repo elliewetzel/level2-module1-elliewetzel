@@ -51,3 +51,5 @@ public class ArrayListDemo {
 		System.out.println("\n");
 	}
 }
+
+//tacoList.get(tacoList
